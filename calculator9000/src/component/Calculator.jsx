@@ -13,7 +13,6 @@ const [result,setResult] = useState("")
     function resultat() {
         const op = operatorSet(eval(operator))
         setResult(op)
-        operatorSet(result)
         console.log(result)
     } 
 

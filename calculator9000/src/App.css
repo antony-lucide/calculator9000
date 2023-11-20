@@ -43,6 +43,7 @@
 
 li{
   list-style-type: none;
+  width: auto;
 }
 
 
@@ -51,6 +52,10 @@ li{
 .liste{
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  grid-gap: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
 }
 
 
